@@ -8,7 +8,7 @@ LINGUIST 245B / SYMSYS 195L
 |--|--|
 | Name: | Robert Hawkins |
 | Contact: | rdhawkins@stanford.edu |
-| Office: | 460-030E |
+| Office: | 460-113 |
 
 Instead of fixed office hours, please book a meeting [here](https://app.usemotion.com/meet/robert-hawkins/meetings?d=30) if you would like to meet!
 
