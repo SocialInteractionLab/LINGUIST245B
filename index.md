@@ -10,21 +10,21 @@ LINGUIST 245B / SYMSYS 195L
 | Contact: | rdhawkins@stanford.edu |
 | Office: | 460-113 |
 
-Instead of fixed office hours, please book a meeting [here](https://app.usemotion.com/meet/robert-hawkins/meetings?d=30) if you would like to meet!
+Please book a time [here](https://app.usemotion.com/meet/robert-hawkins/meetings?d=30) if you would like to meet!
 
 ## TAs
 
 |  |  |
 |--|--|
 | Name: | [Bran Papineau](https://branpap.com/) |
-| Contact: | TBD |
-| Office hours: | TBD |
+| Contact: | branpap@stanford.edu |
+| Office hours: | 1-2pm Monday/Wednesday |
 
 |  |  |
 |--|--|
 | Name: | [Jinyoung Jo](https://jinyoungjo.com/) |
-| Contact: | TBD |
-| Office hours: | TBD |
+| Contact: | jinyoungjo@stanford.edu |
+| Office hours: | [book a meeting here](https://jinyoungjo.youcanbook.me) |
 
 ## Course description
 
