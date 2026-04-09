@@ -1,7 +1,6 @@
-// stims.js — Stimuli for Self-Paced Reading Tutorial
+// stims.js for Self-Paced Reading Tutorial
 //
-// Adapted from Breheny, Katsos & Williams (2006), Cognition 100, 434–463.
-// Experiment 3: "Controlling for plugs"
+// Adapted from Breheny, Katsos & Williams (2006)
 
 const experimentStimuli = [
   {
