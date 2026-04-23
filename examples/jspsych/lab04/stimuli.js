@@ -454,8 +454,8 @@ const criticalItems = [
       }
     },
     question: {
-      text: "Were the remaining packages to be delivered the following morning?",
-      correct: "yes"
+      text: "Was the courier delivering letters?",
+      correct: "no"
     }
   },
   {
@@ -1015,8 +1015,8 @@ const criticalItems = [
       }
     },
     question: {
-      text: "Were the unwrapped presents in the bedroom cupboard?",
-      correct: "yes"
+      text: "Was Tom's sister wrapping presents for a wedding?",
+      correct: "no"
     }
   },
   {
@@ -1146,10 +1146,11 @@ const criticalItems = [
 ];
 
 // Filler items (36 total; do not contain the "some of the Fs" trigger)
-// 11 fillers have comprehension questions (5 yes, 6 no) to reach ~25% overall
-// with balanced yes/no across the full experiment.
+// 10 fillers have comprehension questions (6 yes, 4 no), giving 13 questions
+// across the 54 texts (~24%) with the 3 critical questions (all 'no'),
+// for an overall yes/no split of 6/7.
 const fillerItems = [
-  { id: "f1", segments: ["The teacher announced","that the school trip","would take place on Friday.","||","The students","were very excited","about the visit to the museum."], question: { text: "Was the school trip scheduled for Monday?", correct: "no" } },
+  { id: "f1", segments: ["The teacher announced","that the school trip","would take place on Friday.","||","The students","were very excited","about the visit to the museum."], question: null },
   { id: "f2", segments: ["Sarah went to the supermarket","to buy ingredients","for the dinner party.","||","She picked up","fresh vegetables","and a bottle of wine."], question: null },
   { id: "f3", segments: ["The manager called a meeting","to discuss the quarterly results.","||","The sales team","had exceeded their targets","by a significant margin."], question: { text: "Did the sales team exceed their targets?", correct: "yes" } },
   { id: "f4", segments: ["Tom decided to renovate","his kitchen over the weekend.","||","He painted the walls","a bright shade of yellow","and replaced the old tiles."], question: null },
@@ -1159,7 +1160,7 @@ const fillerItems = [
   { id: "f8", segments: ["The construction workers","finished the bridge","ahead of schedule.","||","The mayor praised their effort","and announced","a celebration for the town."], question: { text: "Was the bridge completed on time?", correct: "yes" } },
   { id: "f9", segments: ["David practiced the piano","for three hours every day.","||","His dedication paid off","when he won first place","in the regional competition."], question: null },
   { id: "f10", segments: ["The flight was delayed","by two hours","due to bad weather.","||","The passengers waited patiently","in the departure lounge","reading books and magazines."], question: null },
-  { id: "f11", segments: ["The professor assigned","a challenging essay topic","for the final exam.","||","The students spent the weekend","researching and writing","their arguments carefully."], question: { text: "Was the essay for a midterm exam?", correct: "no" } },
+  { id: "f11", segments: ["The professor assigned","a challenging essay topic","for the final exam.","||","The students spent the weekend","researching and writing","their arguments carefully."], question: null },
   { id: "f12", segments: ["Rachel volunteered","at the animal shelter","every Saturday afternoon.","||","She enjoyed spending time","with the dogs","and taking them for walks."], question: null },
   // ---- 24 additional fillers ----
   { id: "f13", segments: ["The dentist recommended","that James brush his teeth","three times a day.","||","James bought","a new electric toothbrush","and started following the advice."], question: null },
@@ -1173,7 +1174,7 @@ const fillerItems = [
   { id: "f21", segments: ["The gardener planted","a row of rose bushes","along the garden fence.","||","By the following spring","the bushes had grown","and were covered in flowers."], question: { text: "Were the rose bushes planted along the fence?", correct: "yes" } },
   { id: "f22", segments: ["Karen received","a promotion at work","after her outstanding performance.","||","Her team celebrated","with a small party","in the office kitchen."], question: null },
   { id: "f23", segments: ["The plumber was called","to fix a leaking pipe","in the basement.","||","He replaced the old fitting","with a new copper joint","and tested the pressure."], question: null },
-  { id: "f24", segments: ["The mechanic inspected","the engine carefully","before giving his assessment.","||","He told the owner","that the car needed","a new set of brake pads."], question: { text: "Did the car need new tyres?", correct: "no" } },
+  { id: "f24", segments: ["The mechanic inspected","the engine carefully","before giving his assessment.","||","He told the owner","that the car needed","a new set of brake pads."], question: null },
   { id: "f25", segments: ["The swimmer dove","into the pool","at the sound of the whistle.","||","She completed the lap","in record time","and qualified for the finals."], question: null },
   { id: "f26", segments: ["The architect presented","her design for the new library","to the town council.","||","The councillors were enthusiastic","and approved the project","without any objections."], question: { text: "Did the council approve the library project?", correct: "yes" } },
   { id: "f27", segments: ["Peter forgot","to set his alarm","the night before the interview.","||","He woke up late","and had to rush","to get to the office on time."], question: null },
@@ -1184,7 +1185,7 @@ const fillerItems = [
   { id: "f32", segments: ["The tailor measured","the fabric carefully","before making the first cut.","||","He wanted to ensure","that the suit","would fit the client perfectly."], question: null },
   { id: "f33", segments: ["The volunteers cleaned up","the beach after the storm","picking up debris and litter.","||","By the end of the day","the shoreline looked","much better than before."], question: null },
   { id: "f34", segments: ["The baker experimented","with a new recipe","for sourdough bread.","||","The first batch turned out","surprisingly well","and sold out within the hour."], question: { text: "Did the sourdough bread sell quickly?", correct: "yes" } },
-  { id: "f35", segments: ["The postman delivered","a large parcel","to the wrong address.","||","He realised his mistake","and returned later","to collect it and redeliver it."], question: { text: "Was the parcel delivered to the correct address?", correct: "no" } },
+  { id: "f35", segments: ["The postman delivered","a large parcel","to the wrong address.","||","He realised his mistake","and returned later","to collect it and redeliver it."], question: null },
   { id: "f36", segments: ["The scientist published","her findings in a leading journal","after years of research.","||","The paper attracted attention","from colleagues worldwide","and was widely cited."], question: null }
 ];
 
